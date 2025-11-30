@@ -1,0 +1,157 @@
+/* CSS BY RV */
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ROOT VARIABLES */
+:root {
+  --color-teal: #4CA7C0;
+  --color-purple: #484FB7;
+  --color-lavender: #6B8FE7;
+  --color-yellow: #E9BB57;
+  --color-pink: #D9526F;
+  --color-dark: #1E1E1E;
+  --color-white: #FFFFFF;
+}
+/* GLOBAL STYLES (mobile first/small) */
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--color-dark);
+  background-color: var(--color-white);
+  line-height: 1.6;
+}
+h1, h2 {
+  font-family: 'Kavoon', cursive;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+  color: var(--color-purple);
+  margin-bottom: 0.5em;
+}
+nav h2 {
+  font-size: 1.5em;
+  /* override margin if any inherited from h2 */
+  margin-top: 0;
+}
+h3 {
+  font-size: 1.5em;
+  margin: 1.5em 0 0.5em;
+}
+h4 {
+  font-size: 1.15em;
+  margin-bottom: 0.25em;
+}
+a {
+  color: var(--color-purple);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-pink);
+}
+nav {
+  background-color: var(--color-white);
+  border-bottom: 4px solid var(--color-teal);
+  padding: 1em;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  margin: 0.5em 0;
+}
+header {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  text-align: center;
+  padding: 2em 1em;
+}
+header h1 {
+  margin-bottom: 0.2em;
+}
+header p {
+  font-size: 1.25em;
+}
+#services {
+  padding: 2em 1em;
+}
+#why-choose-us {
+  padding: 2em 1em;
+}
+#pricing {
+  padding: 2em 1em;
+}
+#first-step {
+  padding: 2em 1em;
+  background-color: var(--color-teal);
+  color: var(--color-dark);
+  text-align: center;
+}
+#first-step h2 {
+  color: var(--color-dark);
+}
+#why-choose-us ul {
+  list-style-type: disc;
+  padding-left: 1em;
+}
+#why-choose-us li {
+  margin: 0.5em 0;
+}
+article img {
+  display: block;
+  margin-bottom: 0.5em;
+}
+article {
+  margin-bottom: 1em;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+thead th {
+  background-color: var(--color-lavender);
+  color: var(--color-dark);
+  text-align: left;
+  padding: 0.5em;
+}
+tbody td {
+  padding: 0.5em;
+  border-bottom: 1px solid #cccccc;
+}
+tbody tr:last-child td {
+  border-bottom: none;
+}
+.button {
+  display: inline-block;
+  background-color: var(--color-yellow);
+  color: var(--color-dark);
+  padding: 0.75em 1.5em;
+  margin-top: 1em;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+}
+footer p {
+  margin: 0.25em 0;
+}
+footer a {
+  color: var(--color-purple);
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
